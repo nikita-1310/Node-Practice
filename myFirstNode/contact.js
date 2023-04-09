@@ -11,5 +11,4 @@ response.sendFile(__dirname+'/contact.html')
 })
 app.post('/contact',(request,response)=>{
 response.send("Details are submitted")
-
 })
