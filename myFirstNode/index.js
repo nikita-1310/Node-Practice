@@ -7,6 +7,7 @@ app.listen(5050,()=>{
 })
 
 app.get('/',(request,response)=>{
+    
 response.write("Welcome to the page ");
 response.write(student[1].sname);
 response.write(student[0].sid.toString());
